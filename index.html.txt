@@ -1,0 +1,17 @@
+<html> 
+<head>
+     <title>INf1206 - Home Page</title>
+     <!--
+            Name: Andy Kinsella
+            File: index.html 
+
+-->
+</head>
+<body>
+<h1> First Heading</h1>
+<h3> Second Heading</h3> 
+<p> This is my first paragraph.</p>
+<p> This is my second   paragraph. it is <u>special</u>.</p> 
+
+</body>
+</html>
