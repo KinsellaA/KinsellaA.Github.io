@@ -43,12 +43,16 @@ function returnRandomStoryString() {
 generateBtn.addEventListener("click", generateStory);
 
 function generateStory() {
+ //alert("in generateStory");
+ let newstory = returnRandomStoryString();
   if (customName.value !== "") {
     const name = customName.value;
+    newstory = newstory.replaceall("Bob",name)
   }
-
+//alert("in newstory");
   if (document.getElementById("uk").checked) {
-    const weight = Math.round(300);
+    //alert("uk Selected");
+    const weight = Math.round(300/14.0);
     const temperature = Math.round(94);
   }
 
