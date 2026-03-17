@@ -47,13 +47,15 @@ function generateStory() {
  let newstory = returnRandomStoryString();
   if (customName.value !== "") {
     const name = customName.value;
-    newstory = newstory.replaceall("Bob",name)
+    newstory = newstory.replaceall("Bob",name);
   }
 //alert("in newstory");
   if (document.getElementById("uk").checked) {
     //alert("uk Selected");
     const weight = Math.round(300/14.0);
-    const temperature = Math.round(94);
+    newstory = newstory.replaceall("300 pounds",weight);
+    const temperature = Math.round((94 - 32)* 5.0/9.0)+ celsius;
+    newstory = newstory.replaceall("94 Fahrenheit",temperature);
   }
 
   // TODO: replace "" with the correct expression
