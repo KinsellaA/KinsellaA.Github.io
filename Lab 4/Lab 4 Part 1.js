@@ -61,4 +61,6 @@ function generateStory() {
   // TODO: replace "" with the correct expression
   story.textContent = "";
   story.style.visibility = "visible";
+  story.style.textDecration = "underline";
+  story.style.fontSize = "24pt";
 }
