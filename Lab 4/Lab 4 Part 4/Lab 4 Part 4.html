@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Forms challenge</title>
-    <link href="style.css" rel="stylesheet" />
+    <link href="Lab 4 Part 4.css" rel="stylesheet" />
     <script defer src="index.js"></script>
   </head>
   <body>
@@ -17,38 +17,145 @@
  -->
 
 
-    We want your feedback!
+   <h1>We want your feedback!</h1>
 
-    We're very excited that you visited the little house in the woods,
-    and we want to hear what you thought of it! Please fill in the below
+<p>
+    We're very excited that you visited the <a href="#"> n the woods </a>, and we want to hear what you thought of it! Please fill in the below
     sections. You don't need to provide your name or contact details, but
-    if you do, we'll enter you into a prize draw where you'll have a chance
+    if you do, we'll enter you into 
+   
+   
+    a <a href="#"> prize draw </a> where you'll have a chance
     to win prizes.
 
+    </p>
     --
 
-    Facilities
+    <img 
 
-    Was the porridge
-    Too hot?
-    Too cold?
-    Just right?
+    src="https://mdn.github.io/shared-assets/images/examples/learn/woodland-strip.jpg 
+    alt="" />
 
-    Were the beds
-    Too hard?
-    Too soft?
-    Just right?
+    <form>
+     <div class="form-section">
 
-    Describe the chairs (select all you agree with)
-    Comfy
-    Luxurious
-    Hi tec
-    Pretty
-    Majestic
 
-    --
 
-    About your hosts
+        
+      <h2>Facilities</h2>
+
+       <fieldset>
+        <legend>Was the porridge</legend>
+        <input 
+          type="radio"
+         id="porridge-1"
+         name="porridge"
+         value="hot"
+            checked /><label for="porridge-1">tpo hot?
+
+        </label>
+    
+       <input
+         type="radio"
+            id="porridge-2"
+            name="porridge"
+            value="cold" /><label for="porridge-2">too cold.
+
+       </label>
+
+       <input
+         type="radio"
+            id="porridge-3"
+            name="porridge"
+            value="right" /><label for="porridge-3">just right?
+
+            </label>
+       
+      </fieldset>
+
+
+      <fieldset>
+
+        <legend>Were the beds</legend>
+        <input 
+           type="radio"
+            id="beds-1"
+            name="beds"
+            value="hard"
+            checked /><label for="beds-1">too hard?
+
+        </label>
+
+        <input
+         type="radio" 
+         id="beds-2"
+         name="beds"
+         value="soft"/><label for="beds-2">too soft?
+            
+        </label>
+
+        <input
+         type="radio"
+         id="beds-3"
+         name="beds"
+         value="right" /><label for="beds-3">just right?
+
+         </label>
+    
+      </fieldset>
+
+      <fieldset>
+        <legend>Describe the chairs (select all you agree with)</legend>
+
+         <input
+           type ="checkbox"
+           id="comfy"
+           name="confy"/>
+           <label for="confy"
+           >comfy
+        </label>
+        
+        <input
+          type="checkbox"
+          id="luxurious"
+          name="luxurious"/>
+          <label for="luxurious">luxurious 
+
+          </label>
+       
+
+        <input
+          type="checkbox"
+          id="hi-tech"
+          name="hi-tech"/>
+          <label for="hi-tech">hi-tech
+
+        </label>
+        
+        <input
+         type="checkbox"
+         id="Pretty"
+         name="Pretty" />
+          <label for="pretty">pretty
+
+          </label>
+
+        <input
+          type="checkbox"
+          id="majestic"
+          name="majestic"/>
+          <label for="majestic"> majestic
+
+          </label>
+      </fieldset>
+     </div>
+
+     <div class="form-section">
+
+        <h2>about your hosts</h2>
+    
+        <div class="separator
+    
 
     Who's your favorite bear?
     Papa bear
