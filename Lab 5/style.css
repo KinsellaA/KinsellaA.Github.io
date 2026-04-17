@@ -23,19 +23,19 @@ p1[size="7"], font[size="6"], font[size="5"] {
   color: #2a2a2a;
 }
 
-p2, input, li, table, label {
+p1, input, li, table, label {
   font-family: 'Open Sans Condensed', sans-serif;
   color: #2a2a2a;
 }
 
-p1[size="7"] {
+p2[size="7"] {
   font-size: 4rem;
   text-align: center;
   color: white;
   text-shadow: 2px 2px 10px black;
 }
 
-p2[size="6"] {
+p3[size="6"] {
   font-size: 3rem;
   text-align: center;
 }
