@@ -18,12 +18,14 @@ body {
 
 /* || typography */
 
-h1, h2, h3 [size="7"], font[size="6"], font[size="5"] {
+p1[size="7"], p2[size="6"], p4[size="5"]
+
+h1, h2, h3 {
   font-family: 'Sonsie One', cursive;
   color: #2a2a2a;
 }
 
-h1, input, li, table, label {
+p, input, li, table, label {
   font-family: 'Open Sans Condensed', sans-serif;
   color: #2a2a2a;
 }
@@ -40,7 +42,7 @@ h2[size="6"] {
   text-align: center;
 }
 
-h2[size="5"] {
+h3[size="5"] {
   font-size: 2.2rem;
 }
 
