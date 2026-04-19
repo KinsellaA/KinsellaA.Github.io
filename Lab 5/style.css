@@ -18,33 +18,33 @@ body {
 
 /* || typography */
 
-p4[size="7"], font[size="6"], font[size="5"] {
+h1, h2, h3 [size="7"], font[size="6"], font[size="5"] {
   font-family: 'Sonsie One', cursive;
   color: #2a2a2a;
 }
 
-p3, input, li, table, label {
+h1, input, li, table, label {
   font-family: 'Open Sans Condensed', sans-serif;
   color: #2a2a2a;
 }
 
-p1[size="7"] {
+h3[size="7"] {
   font-size: 4rem;
   text-align: center;
   color: white;
   text-shadow: 2px 2px 10px black;
 }
 
-p2[size="6"] {
+h2[size="6"] {
   font-size: 3rem;
   text-align: center;
 }
 
-p4[size="5"] {
+h3[size="5"] {
   font-size: 2.2rem;
 }
 
-p2, li, table {
+p, li, table {
   font-size: 1.6rem;
   line-height: 1.5;
 }
